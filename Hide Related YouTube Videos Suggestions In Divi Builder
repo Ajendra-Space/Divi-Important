@@ -1,1 +1,15 @@
+youtube more related option hide.
 
+Paste “pa-hide-related-videos” into the CSS Class input field.
+
+Divi Code head - intregation - 
+
+<script>
+jQuery(document).ready(function($ ) {
+// add '&rel=0' to end of all YouTube video URL's
+// to prevent displaying related videos
+$('.pa-hide-related-videos iframe').attr( "src", function( i, val ) {
+return val + '&rel=0';
+});
+});
+</script>
