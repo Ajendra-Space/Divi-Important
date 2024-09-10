@@ -1,0 +1,12 @@
+1. Tab & mobile device only  - only body Row 
+
+display:flex;
+flex-wrap:wrap;
+
+*under row - two columns
+
+2. Next column 1 ;
+order:2;
+
+3. And column 2;
+order:1;
